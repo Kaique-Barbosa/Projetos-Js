@@ -1,0 +1,47 @@
+h1{
+    color: rgb(50,50,130);
+    font-size: 60px;
+    text-align: center;
+}
+
+hr{
+    height: 12px;
+    width: 60%;
+    background: orange ;
+    border-radius: 3em;
+    border: none;
+}
+
+p{
+    width: 60%;
+    margin: auto;
+}
+
+img{
+    width: 10em; 
+    height: 7em;   
+
+}
+
+.container{
+    width: fit-content;
+    margin: auto;
+   
+}
+
+.smurfvideo{
+    width: 60%;
+    margin: auto;
+    display: block;
+
+}
+
+marquee{
+    font-size: 25px;
+    color: rgb(211, 113, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: rgb(114, 101, 101);
+}

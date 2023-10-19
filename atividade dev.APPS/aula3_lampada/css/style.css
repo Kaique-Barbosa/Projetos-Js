@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(cyan,rgb(12, 158, 158),rgb(11, 117, 117),black); 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa{
+    width: 300px;
+    background: rgb(255, 255, 255, 30%);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 50px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.caixa > button{
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border-radius: 12px;
+    border: 2px 2px  black ;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+
+#ligar{
+    background: rgb(103, 247, 103);
+}
+
+#ligar:hover{
+    box-shadow: 1px 1px 3px black;
+    background: rgba(73, 73, 73, 0.01);
+}
+#desligar:hover{
+    box-shadow: 1px 1px 3px black;
+}
+
+#desligar{
+    background: rgb(248, 0, 0);
+    color: aliceblue;
+
+}
